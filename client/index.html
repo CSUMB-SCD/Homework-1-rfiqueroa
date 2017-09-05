@@ -49,6 +49,7 @@
     <div class="container" ng-controller="ChatController">
       <div class="navbar navbar-fixed-top navbar-inverse">
         <div class="navbar-inner">
+          <img src="img/csumb.jpg" alt="CSUMB Otters" style="width:10%;">
           <div class="pull-right">
             <a href="https://c9.io" class="brand">CSUMB Computer Science</a>
           </div>
@@ -93,13 +94,14 @@
               <div class="span2"><input type="text" class="input-block-level" ng-model="name" ng-change="setName()" placeholder="New Class ID"></div>
               <div class="input-append span7">
                 <input type="text" class="span6" ng-model="text" placeholder="New Class Name">
-                <input type="submit" class="span1 btn btn-primary" value="Send" ng-disabled="!text">
+                <input type="submit" class="span1 btn btn-primary" value="Enter" ng-disabled="!text">
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
+    <div style="text-align:center"><img src="img/class.jpg" alt="CSUMB Class" style="width:55%;"></div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
